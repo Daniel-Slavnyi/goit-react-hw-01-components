@@ -1,15 +1,11 @@
-import PropTypes from 'prop-types';
 
-export default function Friend({ }) {
+
+export default function Friend({url, name}) {
     return (
-        <li class="item">
+        <li className="item">
             <span className="status"></span>
-            <img className="avatar" src="" alt="User avatar" width="48" />
-            <p className="name"></p>
+            <img className="avatar" src={url} alt={`${name} avatar`} width="48" />
+            <p className="name">{name}</p>
         </li>
     )
-}
-
-Friend.propTypes = {
-    
 }
