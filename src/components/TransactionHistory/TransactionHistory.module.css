@@ -1,0 +1,14 @@
+.transactionHistory {
+    border:2px solid tomato;
+    border-radius: 10px;
+    box-shadow: 0 10px 6px -6px #777;
+    margin: 50px auto;
+}
+
+.th {
+    width: 150px;
+    padding: 20px 0;
+    background-color: tomato;
+    border-radius: 10px;
+}
+
