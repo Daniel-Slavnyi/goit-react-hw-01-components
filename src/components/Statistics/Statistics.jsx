@@ -1,12 +1,13 @@
 import PropTypes from 'prop-types';
 import StatisticItem from '../StatisticItem/StatisticItem';
+import css from './Statistics.module.css';
 
 export default function Statistics({title, statistic }) {
     return (
         <>
-            <h2 className="title">{title}</h2>
+            <h2 className={css.title}>{title}</h2>
 
-            <ul className="stat-list">
+            <ul className={css.statList}>
                 {statistic.map(({label, percentage, id}) => (
                     <StatisticItem
                         key={id}

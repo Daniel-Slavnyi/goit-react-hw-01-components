@@ -1,0 +1,13 @@
+.title {
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.statList {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding: 0;
+    gap: 5px;
+}

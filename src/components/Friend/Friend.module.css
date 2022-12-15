@@ -1,0 +1,21 @@
+.item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border: 2px solid tomato;
+    width: 200px;
+    border-radius: 5px;
+    box-shadow: 0 10px 6px -6px #777;
+    padding: 15px;
+}
+
+.status {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: greenyellow;
+}
+
+.statusOfline {
+    background-color: tomato;
+}
