@@ -1,4 +1,5 @@
 import css from './Friend.module.css';
+import PropTypes from 'prop-types';
 
 export default function Friend({ url, name, isOnline }) {
   return (
@@ -9,3 +10,9 @@ export default function Friend({ url, name, isOnline }) {
     </li>
   );
 }
+
+Friend.propTypes = {
+  url: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
+  isOnline: PropTypes.bool.isRequired,
+};

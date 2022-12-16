@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import css from './StatistickItem.module.css';
 import makeColor from '../../utils/makeColor';
 
@@ -9,3 +10,8 @@ export default function StatisticItem({ label, percentage }) {
     </li>
   );
 }
+
+StatisticItem.propTypes = {
+  label: PropTypes.string.isRequired,
+  percentage: PropTypes.number.isRequired,
+};
